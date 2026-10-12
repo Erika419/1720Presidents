@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1720-Home Improvement</title>
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
+
+    <!--Open Graph-->
+<meta property="og:title" content="1720-homeimprovement" />
+<meta property="og:description" content="home" />
+<meta property="og:image" content="https://erika419.github.io/1720-homeimprovement/images/opengraph.jpg" />
+<meta property="og:url" content="https://erika419.github.io/1720-homeimprovement/" />
+<meta property="og:logo" content="https://erika419.github.io/1720-homeimprovement/images/favicon.svg" />
+<meta property="og:type" content="website" />
+
+<!--favicon-->
+<link rel="icon" type="image/png" href="/1720-homeimprovement/images/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/1720-homeimprovement/images/favicon.svg" />
+<link rel="shortcut icon" href="/1720-homeimprovement/images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/1720-homeimprovement/images/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Home Improvement" />
+<link rel="manifest" href="/1720-homeimprovement/images/site.webmanifest" />
+
+    <!--SCRIPTS--->
+    
+    <script src="scripts/year.js" defer> </script>
+     <script src="scripts/scripts.js" defer> </script>
+     <script src="scripts/paint.js" defer> </script>
+    
+</head>
+<body>
+    <header>
+        <img src="images/favicon.svg" alt="site logo" width="16" height="16">
+        <span> 1720-Home Improvement</span>
+    </header> 
+
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">
+                        <img src="images/nav-calculator.svg" alt="calculator">
+                        <div>calculator</div>
+                    </a>
+                    <a href="#paintSupplies">
+                        <img src="images/nav-paint.svg" alt="paint">
+                        <div>Find Colors</div>
+                    </a>
+                    <a href="#buttonSupplies">
+                        <img src="images/nav-paintroller.svg" alt="paintroller">
+                        <div>Supplies</div>
+                    </a>
+                    <a href="#userInput">
+                        <img src="images/nav-pros.svg" alt="For Pros">
+                        <div>For Pros</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+                <main>
+
+                <div class="hero">
+                <img src="images/heroimage.webp" alt="hero image" width="1200" height="850" load="lazy">
+                <h1>Supply Calculator</h1>    
+                </div>
+                    
+                <form id="myForm">
+                <div id="userInput">
+                <label>Room Width
+                    <input type="number" id="width" name="width" required placeholder="Enter Room Width">
+                </label>
+                </div>
+                <label>Room Depth
+                    <input type="number" id="depth" name="depth" required placeholder="Enter Room Depth">
+                </label>
+                <label>Wall Height
+                    <input type="number" id="height" name="height" required placeholder="Enter Wall Height">
+                </label>
+                    
+                <label>Paint Quality
+                    <div id="paintSupplies">
+                    <select id="quality">
+                        <option value="none" disabled selected>Select an option</option>
+                        <option value="600">Premium (600sqft per gallon)</option>
+                        <option value="500">Standard (500sqft per gallon)</option>
+                        <option value="400">Cheap (400sqft per gallon)</option>
+                    </select>
+                    </div>
+                </label>
+
+                <div id="buttonSupplies">
+                <button type="button" id="button">Click Me!</button>
+                </div>
+
+                <ul id="message"></ul>
+                </form>
+        </main>
+
+
+      
+
+        <footer>
+        <section class="social" id = assign>
+            <a href="https://www.facebook.com/paul.cheney.1422" target="_blank"><img src="images/icons8-facebook.svg" alt="facebook" width="16" height="16"> </a>
+            <a href="https://www.youtube.com/PaulChenney" target="_blank"><img src="images/github-142-svgrepo-com.svg" alt="github" width="16" height="16"> </a>
+            <a href="https://www.linkedin.com/in/pchenney" target="_blank"><img src="images/linkedin-svgrepo-com.svg" alt="linkedin" width="16" height="16"> </a>
+            <a href="https://www.youtube.com/@PaulChenney66" target="_blank"><img src="images/youtube-168-svgrepo-com.svg" alt="youtube" width="16" height="16"> </a>
+        </section>
+
+        
+        <p>&copy; <span id="currentyear"></span> &bull; Erika Costecalde &bull; DWDD1720</p>
+        
+    </footer>
+</body>
+</html>

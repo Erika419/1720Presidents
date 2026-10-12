@@ -1,0 +1,68 @@
+@media only screen and (min-width: 40rem) {
+
+    header, main, nav, footer{
+        max-width:1200px;
+        margin: 0 auto;
+    }
+
+    header{
+    grid-template-columns: 24px auto 44px;
+    }
+
+       /**Navigation Stuff tag**/
+nav {
+    background-color: rgb(119, 197, 223);
+    position: static;
+    max-width: none;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(119, 197, 223);
+}
+
+nav li {
+    display: flex;
+    width: 100%;
+}
+
+nav a {
+    flex: 1;
+    display: block;
+    text-align: center;
+    border-left: solid 1px rgba(245, 242, 242, 0.2);
+    padding: .4rem 20px;
+    background-color: rgb(119, 197, 223);
+}
+
+nav a:hover {
+    background-color: rgb(180, 58, 180);
+}
+
+nav li:last-child a {
+    border-right: solid 1px rgba(245, 242, 242, 0.2);
+}
+
+      /**Schedule Layout tag**/
+    .schedule{
+        font-size: 1rem;
+    }
+FDS 
+    .schedule img{
+        width: 150px;
+    }
+
+    /**Hamburger Stuff tag**/
+    .hamburger{
+        display:none;
+    }
+
+    /**Main Stuff tag**/
+    .sbs{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
