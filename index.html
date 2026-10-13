@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1720-Home Improvement</title>
+    <title>1720-Presidents</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -34,7 +34,8 @@
     
     <script src="scripts/year.js" defer> </script>
      <script src="scripts/scripts.js" defer> </script>
-     <script src="scripts/paint.js" defer> </script>
+     <script src="scripts/movies.mjs" type="module"> </script>
+     <script src="scripts/movies.js" defer> </script>
     
 </head>
 <body>
@@ -68,40 +69,10 @@
 
                 <main>
 
-                <div class="hero">
-                <img src="images/heroimage.webp" alt="hero image" width="1200" height="850" load="lazy">
-                <h1>Supply Calculator</h1>    
-                </div>
-                    
-                <form id="myForm">
-                <div id="userInput">
-                <label>Room Width
-                    <input type="number" id="width" name="width" required placeholder="Enter Room Width">
-                </label>
-                </div>
-                <label>Room Depth
-                    <input type="number" id="depth" name="depth" required placeholder="Enter Room Depth">
-                </label>
-                <label>Wall Height
-                    <input type="number" id="height" name="height" required placeholder="Enter Wall Height">
-                </label>
-                    
-                <label>Paint Quality
-                    <div id="paintSupplies">
-                    <select id="quality">
-                        <option value="none" disabled selected>Select an option</option>
-                        <option value="600">Premium (600sqft per gallon)</option>
-                        <option value="500">Standard (500sqft per gallon)</option>
-                        <option value="400">Cheap (400sqft per gallon)</option>
-                    </select>
-                    </div>
-                </label>
+                <div id="allmovies" class="allmovies"></div>
+                
 
-                <div id="buttonSupplies">
-                <button type="button" id="button">Click Me!</button>
-                </div>
-
-                <ul id="message"></ul>
+                
                 </form>
         </main>
 
