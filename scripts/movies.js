@@ -1,26 +1,27 @@
 //grab the presidents data from the file
 import { movies } from "../data/movies.mjs";
+console.log(movies);
 
 //reference ID's from the file
-const displayMovies = document.querySelector("#allmovies");
+const displayMovies = document.querySelector("#showMovies");
 
 movies.forEach((movie) => {
 
     // Create the movie title
     const movieTitle = document.createElement("h2");
-    movieTitle.textContent = movie.title;
+    movieTitle.innerText = movie.title;
 
     // Create the movie studio
     const movieStudio = document.createElement("p");
-    movieStudio.textContent = `Studio: ${movie.studio}`;
+    movieStudio.innerText = `Studio: ${movie.studio}`;
 
     // Create the release date
     const movieRelease = document.createElement("p");
-    movieRelease.textContent = `Release Date: ${movie.release}`;
+    movieRelease.innerText = `Release Date: ${movie.release}`;
 
     // Create the movie genre
     const movieGenre = document.createElement("p");
-    movieGenre.textContent = `Genre: ${movie.genre}`;
+    movieGenre.innerText = `Genre: ${movie.genre}`;
 
     // Create the movie image
     const movieImage = document.createElement("img");
@@ -34,11 +35,11 @@ movies.forEach((movie) => {
 
     // Add everything to the movie card
     movieCard.appendChild(movieTitle);
-    movieCard.appendChild(movieImage);
     movieCard.appendChild(movieStudio);
-    movieCard.appendChild(movieGenre);
     movieCard.appendChild(movieRelease);
-
+    movieCard.appendChild(movieGenre);
+    movieCard.appendChild(movieImage);
+    
     // Add the movie card to the webpage
     displayMovies.appendChild(movieCard);
 });

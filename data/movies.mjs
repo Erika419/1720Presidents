@@ -69,5 +69,5 @@ export const movies = [
   "genre": "Black Comedy",
   "image": "images/digger.jpg",
   "release": "2026-10-02"
-},
+}
 ]
