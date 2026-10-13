@@ -5,41 +5,59 @@ console.log(movies);
 //reference ID's from the file
 const displayMovies = document.querySelector("#showMovies");
 
-movies.forEach((movie) => {
+//Filters the movies
 
-    // Create the movie title
-    const movieTitle = document.createElement("h2");
-    movieTitle.innerText = movie.title;
+//response to btn-all being clicked
+document.querySelector('#btn-all').addEventListener('click', () => {
+    showFilteredMovies(movies)
+})
 
-    // Create the movie studio
-    const movieStudio = document.createElement("p");
-    movieStudio.innerText = `Studio: ${movie.studio}`;
+//shows all movies
+function showFilteredMovies(filteredMovies) {
+    /*this wipes out anything on the page
+    so if you click a button multiple times,
+    it doesn't recreate the list over and over again*/
+    displayMovies.innerHTML = ""
 
-    // Create the release date
-    const movieRelease = document.createElement("p");
-    movieRelease.innerText = `Release Date: ${movie.release}`;
+    filteredMovies.forEach((movie) => {
 
-    // Create the movie genre
-    const movieGenre = document.createElement("p");
-    movieGenre.innerText = `Genre: ${movie.genre}`;
+        // Create the movie title
+        const movieTitle = document.createElement("h2");
+        movieTitle.innerText = movie.title;
 
-    // Create the movie image
-    const movieImage = document.createElement("img");
-    movieImage.src = movie.image;
-    movieImage.alt = movie.title;
-    movieImage.loading = "lazy";
-    movieImage.width = 300;
+        // Create the movie studio
+        const movieStudio = document.createElement("p");
+        movieStudio.innerText = `Studio: ${movie.studio}`;
 
-    // Create the movie card
-    const movieCard = document.createElement("section");
+        // Create the release date
+        const movieRelease = document.createElement("p");
+        movieRelease.innerText = `Release Date: ${movie.release}`;
 
-    // Add everything to the movie card
-    movieCard.appendChild(movieTitle);
-    movieCard.appendChild(movieStudio);
-    movieCard.appendChild(movieRelease);
-    movieCard.appendChild(movieGenre);
-    movieCard.appendChild(movieImage);
+        // Create the movie genre
+        const movieGenre = document.createElement("p");
+        movieGenre.innerText = `Genre: ${movie.genre}`;
+
+        // Create the movie image
+        const movieImage = document.createElement("img");
+        movieImage.src = movie.image;
+        movieImage.alt = movie.title;
+        movieImage.loading = "lazy";
+        movieImage.width = 300;
+
+        // Create the movie card
+        const movieCard = document.createElement("section");
+
+        // Add everything to the movie card
+        movieCard.appendChild(movieTitle);
+        movieCard.appendChild(movieStudio);
+        movieCard.appendChild(movieRelease);
+        movieCard.appendChild(movieGenre);
+        movieCard.appendChild(movieImage);
     
-    // Add the movie card to the webpage
-    displayMovies.appendChild(movieCard);
-});
+         // Add the movie card to the webpage
+        displayMovies.appendChild(movieCard);
+    });
+};
+
+// images user first sees when they visit site
+showFilteredMovies(movies)
