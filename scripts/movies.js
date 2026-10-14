@@ -12,6 +12,15 @@ document.querySelector('#btn-all').addEventListener('click', () => {
     showFilteredMovies(movies)
 })
 
+//response to btn-action being clicked
+document.querySelector('#btn-adventure').addEventListener('click', () => {
+    /*this loops through all the movies, runs the filter on it to check if 
+    movie.genre = adventure. If it does, it only shows the action movies */
+    
+    const  filteredMovies = movies.filter((movie) => movie.genre === "adventure")
+    filteredMovies(movies)
+})
+
 //shows all movies
 function showFilteredMovies(filteredMovies) {
     /*this wipes out anything on the page
