@@ -17,8 +17,34 @@ document.querySelector('#btn-adventure').addEventListener('click', () => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
-    
     const  filteredMovies = movies.filter((movie) => movie.genre.includes("Adventure"));
+    showFilteredMovies(filteredMovies)
+});
+
+//response to btn-science being clicked
+document.querySelector('#btn-science').addEventListener('click', () => {
+    
+    /*this loops through all the movies, runs the filter on it to check if 
+    movie.genre = adventure. If it does, it only shows the action movies */
+    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Science Fiction"));
+    showFilteredMovies(filteredMovies)
+});
+
+//response to btn-animation being clicked
+document.querySelector('#btn-animation').addEventListener('click', () => {
+    
+    /*this loops through all the movies, runs the filter on it to check if 
+    movie.genre = adventure. If it does, it only shows the action movies */
+    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Animation"));
+    showFilteredMovies(filteredMovies)
+});
+
+//response to btn-comedy being clicked
+document.querySelector('#btn-comedy').addEventListener('click', () => {
+    
+    /*this loops through all the movies, runs the filter on it to check if 
+    movie.genre = adventure. If it does, it only shows the action movies */
+    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Comedy"));
     showFilteredMovies(filteredMovies)
 });
 
