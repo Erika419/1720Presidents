@@ -270,66 +270,6 @@ nav.show{
         background-color: rgb(255.255.255, 0.8);
     }
 
-/**Park Card Layout tag**/
-    .allparks{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 50px 10px;
-        margin: 10px;
-    }
-
-    .allparks div{
-        border: solid 1px var(--color-mygrey-10);
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .allparks section{
-        position: relative;
-    }
-
-    .allparks img{
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-
-    .allparks h2{
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(255, 255, 255, 0.6);
-        width: 100%;
-        margin: 0;
-        padding: 0.5rem 10px;
-        font-size: 1.2rem;
-        text-align: center;
-        box-sizing: border-box;
-    }
-    .allparks p{
-        font-weight: 200;
-        color: var(--color-mygrey-70);
-        margin: 0.5rem 10px;
-        span{
-            font-size: 0.8rem;
-            font-weight: 600;
-            color: var(--color-mygrey-40);
-        }
-    }
-
-    .allparks a{
-        display:  block;
-        background-color: var(--color-primary);
-        margin: 0.5rem 10px;
-        padding: 0.8rem 0;
-        text-align: center;
-        color: white;
-        border-radius: 99px;
-        &:hover{
-            background-color: var(--color-secondary);
-        }
-    }
 
     /**Form Layout tag**/
     form{
@@ -416,13 +356,13 @@ nav.show{
     
 }
 
-/**List Stylizatin Layout tag**/
-    #listStyle li{
-        list-style-type: square;
-        list-style-image: url('../images/checkbox.webp'); 
-        padding-bottom: 1rem;
-        line-height: 1.5;
-    }
+/**movies formatting**/
+.showMovies section{
+    border: 1px solid var(--color-primary)
+}
+.current{
+    background-color: orange;
+}
 
 
 /**footer tag**/

@@ -8,45 +8,63 @@ const displayMovies = document.querySelector("#showMovies");
 //Filters the movies
 
 //response to btn-all being clicked
-document.querySelector('#btn-all').addEventListener('click', () => {
+document.querySelector('#btn-all').addEventListener('click', (el) => {
     showFilteredMovies(movies)
-})
+    console.log(el.target.id)
+    updateSubNav(el.target.id)
+});
 
 //response to btn-action being clicked
-document.querySelector('#btn-adventure').addEventListener('click', () => {
+document.querySelector('#btn-adventure').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
     const  filteredMovies = movies.filter((movie) => movie.genre.includes("Adventure"));
     showFilteredMovies(filteredMovies)
+    updateSubNav(el.target.id)
+    
 });
 
 //response to btn-science being clicked
-document.querySelector('#btn-science').addEventListener('click', () => {
+document.querySelector('#btn-science').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
     const  filteredMovies = movies.filter((movie) => movie.genre.includes("Science Fiction"));
     showFilteredMovies(filteredMovies)
+    updateSubNav(el.target.id)
 });
 
 //response to btn-animation being clicked
-document.querySelector('#btn-animation').addEventListener('click', () => {
+document.querySelector('#btn-animation').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
     const  filteredMovies = movies.filter((movie) => movie.genre.includes("Animation"));
     showFilteredMovies(filteredMovies)
+    updateSubNav(el.target.id)
 });
 
 //response to btn-comedy being clicked
-document.querySelector('#btn-comedy').addEventListener('click', () => {
+document.querySelector('#btn-comedy').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
     const  filteredMovies = movies.filter((movie) => movie.genre.includes("Comedy"));
     showFilteredMovies(filteredMovies)
+    updateSubNav(el.target.id)
 });
+
+//WAYFINDING on Buttons
+function updateSubNav(buttonID) {
+    //remove active class from all buttons
+    const allButtons= document.querySelectorAll('.genreNav button')
+    console.log(allButtons)
+    allButtons.forEach((btn) => (btn.className=""));
+
+    //add the active class to the current button
+    document.querySelector(`#${buttonID}`).className= "current"
+}
 
 //shows all movies
 function showFilteredMovies(filteredMovies) {
