@@ -66,7 +66,7 @@ export const movies = [
 {
   "title": "Digger",
   "studio": "Warner Bro's Pictures",
-  "genre": "Adventure",
+  "genre": "Comedy",
   "image": "images/digger.jpg",
   "release": "2026-10-02"
 }
