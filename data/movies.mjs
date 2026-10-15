@@ -36,7 +36,7 @@ export const movies = [
   "title": "Mrs. Doubtfire",
   "studio": "20th Century Fox",
   "genre": "Comedy",
-  "image": "images/smrs_doubtfire.webp",
+  "image": "images/mrs_doubtfire.webp",
   "release": "1993-10-22"
 },
 
