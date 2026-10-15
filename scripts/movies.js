@@ -15,7 +15,7 @@ document.querySelector('#btn-all').addEventListener('click', (el) => {
     updateSubNav(el.target.id)
 });
 
-//response to btn-action being clicked
+//response to btn-adventure being clicked
 document.querySelector('#btn-adventure').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
@@ -36,7 +36,7 @@ document.querySelector('#btn-science').addEventListener('click', (el) => {
     updateSubNav(el.target.id)
 });
 
-//response to btn-animation being clicked
+//response to btn-romance being clicked
 document.querySelector('#btn-romance').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
