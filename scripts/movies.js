@@ -5,7 +5,8 @@ console.log(movies);
 //reference ID's from the file
 const displayMovies = document.querySelector("#showMovies");
 
-//Filters the movies
+//path to movie photos
+const pathStart = "http://resources.dgmuvu.com/movies/"
 
 //response to btn-all being clicked
 document.querySelector('#btn-all').addEventListener('click', (el) => {
@@ -36,24 +37,16 @@ document.querySelector('#btn-science').addEventListener('click', (el) => {
 });
 
 //response to btn-animation being clicked
-document.querySelector('#btn-animation').addEventListener('click', (el) => {
+document.querySelector('#btn-romance').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
-    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Animation"));
+    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Romance"));
     showFilteredMovies(filteredMovies)
     updateSubNav(el.target.id)
 });
 
-//response to btn-comedy being clicked
-document.querySelector('#btn-comedy').addEventListener('click', (el) => {
-    
-    /*this loops through all the movies, runs the filter on it to check if 
-    movie.genre = adventure. If it does, it only shows the action movies */
-    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Comedy"));
-    showFilteredMovies(filteredMovies)
-    updateSubNav(el.target.id)
-});
+
 
 //WAYFINDING on Buttons
 function updateSubNav(buttonID) {
@@ -93,10 +86,12 @@ function showFilteredMovies(filteredMovies) {
 
         // Create the movie image
         const movieImage = document.createElement("img");
+        movieImage.src= pathStart + movie.image;
         movieImage.src = movie.image;
         movieImage.alt = movie.title;
         movieImage.loading = "lazy";
-        movieImage.width = 300;
+        movieImage.width = 400;
+        movieImage.height = 200;
 
         // Create the movie card
         const movieCard = document.createElement("section");
