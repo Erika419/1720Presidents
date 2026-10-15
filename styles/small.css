@@ -340,7 +340,7 @@ nav li.active a{
 
 /**card formatting**/
 .showPresidents{
-    display: flex;
+    display: grid;
     margin: 1rem;
     gap: 1rem;
     padding: 1rem;
@@ -350,7 +350,13 @@ nav li.active a{
 };
 
 .showPresidents section{
-    border: 1px solid var(--color-primary)
+    border: 1px solid var(--color-primary);
+    margin: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .current{
