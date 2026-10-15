@@ -101,28 +101,29 @@ function showFilteredPresidents(filteredPresidents) {
 
         // Create the start/end year
         const presidentTerm = document.createElement("p");
-        presidentTerm.innerText = `Term: ${president.startYear} - ${president.endYear}`;
+        const endYear = president.endYear ?? "Present";
+        presidentTerm.innerText = `Term: ${president.startYear} - ${endYear}`;
 
-        // Create the movie image
+        // Create the president image
         const presidentImage = document.createElement("img");
         presidentImage.src= pathStart + president.image;
         presidentImage.src = president.image;
-        presidentImage.alt = president.title;
+        presidentImage.alt = president.name;
         presidentImage.loading = "lazy";
         presidentImage.width = 400;
         presidentImage.height = 200;
 
         // Create the card
         const presidentCard = document.createElement("section");
-        presidentCard.classList.add(...presidents.party.split(", "));
+        presidentCard.classList.add(...president.party.replaceAll(" ", "-"));
 
-        // Add everything to the movie card
+        // Add everything to the president card
         presidentCard.appendChild(presidentName);
         presidentCard.appendChild(presidentParty);
         presidentCard.appendChild(presidentTerm);
         presidentCard.appendChild(presidentImage);
     
-         // Add the movie card to the webpage
+         // Add the presdient card to the webpage
         displayPresidents.appendChild(presidentCard);
     });
 };
