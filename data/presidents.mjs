@@ -5,7 +5,7 @@ export const presidents = [
     "party": "Unaffiliated",
     "startYear": 1789,
     "endYear": 1797,
-    "image": "images/george-washington.jpg"
+    "image": "images/01-washington.webp"
   },
   {
     "number": 2,
@@ -13,7 +13,7 @@ export const presidents = [
     "party": "Federalist",
     "startYear": 1797,
     "endYear": 1801,
-    "image": "images/john-adams.jpg"
+    "image": "images/02-adams.webp"
   },
   {
     "number": 3,
@@ -21,7 +21,7 @@ export const presidents = [
     "party": "Democratic-Republican",
     "startYear": 1801,
     "endYear": 1809,
-    "image": "images/thomas-jefferson.jpg"
+    "image": "images/03-jefferson.webp"
   },
   {
     "number": 4,
@@ -29,7 +29,7 @@ export const presidents = [
     "party": "Democratic-Republican",
     "startYear": 1809,
     "endYear": 1817,
-    "image": "images/james-madison.jpg"
+    "image": "images/04-madison.webp"
   },
   {
     "number": 5,
@@ -37,7 +37,7 @@ export const presidents = [
     "party": "Democratic-Republican",
     "startYear": 1817,
     "endYear": 1825,
-    "image": "images/james-monroe.jpg"
+    "image": "images/05-monroe.webp"
   },
   {
     "number": 6,
@@ -45,7 +45,7 @@ export const presidents = [
     "party": "Democratic-Republican",
     "startYear": 1825,
     "endYear": 1829,
-    "image": "images/john-quincy-adams.jpg"
+    "image": "images/06-adams.webp"
   },
   {
     "number": 7,
@@ -53,7 +53,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1829,
     "endYear": 1837,
-    "image": "images/andrew-jackson.jpg"
+    "image": "images/07-jackson.webp"
   },
   {
     "number": 8,
@@ -61,7 +61,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1837,
     "endYear": 1841,
-    "image": "images/martin-van-buren.jpg"
+    "image": "images/08-van-buren.webp"
   },
   {
     "number": 9,
@@ -69,7 +69,7 @@ export const presidents = [
     "party": "Whig",
     "startYear": 1841,
     "endYear": 1841,
-    "image": "images/william-henry-harrison.jpg"
+    "image": "images/09-harrison.webp"
   },
   {
     "number": 10,
@@ -77,7 +77,7 @@ export const presidents = [
     "party": "Whig",
     "startYear": 1841,
     "endYear": 1845,
-    "image": "images/john-tyler.jpg"
+    "image": "images/10-tyler.webp"
   },
   {
     "number": 11,
@@ -85,7 +85,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1845,
     "endYear": 1849,
-    "image": "images/james-k-polk.jpg"
+    "image": "images/11-polk.webp"
   },
   {
     "number": 12,
@@ -93,7 +93,7 @@ export const presidents = [
     "party": "Whig",
     "startYear": 1849,
     "endYear": 1850,
-    "image": "images/zachary-taylor.jpg"
+    "image": "images/12-taylor.webp"
   },
   {
     "number": 13,
@@ -101,7 +101,7 @@ export const presidents = [
     "party": "Whig",
     "startYear": 1850,
     "endYear": 1853,
-    "image": "images/millard-fillmore.jpg"
+    "image": "images/13-fillmore.webp"
   },
   {
     "number": 14,
@@ -109,7 +109,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1853,
     "endYear": 1857,
-    "image": "images/franklin-pierce.jpg"
+    "image": "images/14-pierce.webp"
   },
   {
     "number": 15,
@@ -117,7 +117,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1857,
     "endYear": 1861,
-    "image": "images/james-buchanan.jpg"
+    "image": "images/15-buchanan.webp"
   },
   {
     "number": 16,
@@ -125,7 +125,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1861,
     "endYear": 1865,
-    "image": "images/abraham-lincoln.jpg"
+    "image": "images/16-lincoln.webp"
   },
   {
     "number": 17,
@@ -133,7 +133,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1865,
     "endYear": 1869,
-    "image": "images/andrew-johnson.jpg"
+    "image": "images/17-johnson.webp"
   },
   {
     "number": 18,
@@ -141,7 +141,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1869,
     "endYear": 1877,
-    "image": "images/ulysses-s-grant.jpg"
+    "image": "images/18-grant.webp"
   },
   {
     "number": 19,
@@ -149,7 +149,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1877,
     "endYear": 1881,
-    "image": "images/rutherford-b-hayes.jpg"
+    "image": "images/19-hayes.webp"
   },
   {
     "number": 20,
@@ -157,7 +157,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1881,
     "endYear": 1881,
-    "image": "images/james-a-garfield.jpg"
+    "image": "images/20-garfield.webp"
   },
   {
     "number": 21,
@@ -165,7 +165,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1881,
     "endYear": 1885,
-    "image": "images/chester-a-arthur.jpg"
+    "image": "images/21-arthur.webp"
   },
   {
     "number": 22,
@@ -173,7 +173,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1885,
     "endYear": 1889,
-    "image": "images/grover-cleveland.jpg"
+    "image": "images/22-cleveland.webp"
   },
   {
     "number": 23,
@@ -181,7 +181,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1889,
     "endYear": 1893,
-    "image": "images/benjamin-harrison.jpg"
+    "image": "images/23-harrison.webp"
   },
   {
     "number": 24,
@@ -189,7 +189,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1893,
     "endYear": 1897,
-    "image": "images/grover-cleveland.jpg"
+    "image": "images/24-cleveland.webp"
   },
   {
     "number": 25,
@@ -197,7 +197,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1897,
     "endYear": 1901,
-    "image": "images/william-mckinley.jpg"
+    "image": "images/25-mckinley.webp"
   },
   {
     "number": 26,
@@ -205,7 +205,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1901,
     "endYear": 1909,
-    "image": "images/theodore-roosevelt.jpg"
+    "image": "images/26-roosevelt.webp"
   },
   {
     "number": 27,
@@ -213,7 +213,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1909,
     "endYear": 1913,
-    "image": "images/william-howard-taft.jpg"
+    "image": "images/27-taft.webp"
   },
   {
     "number": 28,
@@ -221,7 +221,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1913,
     "endYear": 1921,
-    "image": "images/woodrow-wilson.jpg"
+    "image": "images/28-wilson.webp"
   },
   {
     "number": 29,
@@ -229,7 +229,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1921,
     "endYear": 1923,
-    "image": "images/warren-g-harding.jpg"
+    "image": "images/29-harding.webp"
   },
   {
     "number": 30,
@@ -237,7 +237,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1923,
     "endYear": 1929,
-    "image": "images/calvin-coolidge.jpg"
+    "image": "images/30-coolidge.webp"
   },
   {
     "number": 31,
@@ -245,7 +245,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1929,
     "endYear": 1933,
-    "image": "images/herbert-hoover.jpg"
+    "image": "images/31-hoover.webp"
   },
   {
     "number": 32,
@@ -253,7 +253,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1933,
     "endYear": 1945,
-    "image": "images/franklin-d-roosevelt.jpg"
+    "image": "images/32-roosevelt.webp"
   },
   {
     "number": 33,
@@ -261,7 +261,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1945,
     "endYear": 1953,
-    "image": "images/harry-s-truman.jpg"
+    "image": "images/33-truman.webp"
   },
   {
     "number": 34,
@@ -269,7 +269,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1953,
     "endYear": 1961,
-    "image": "images/dwight-d-eisenhower.jpg"
+    "image": "images/34-eisenhower.webp"
   },
   {
     "number": 35,
@@ -277,7 +277,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1961,
     "endYear": 1963,
-    "image": "images/john-f-kennedy.jpg"
+    "image": "images/35-kennedy.webp"
   },
   {
     "number": 36,
@@ -285,7 +285,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1963,
     "endYear": 1969,
-    "image": "images/lyndon-b-johnson.jpg"
+    "image": "images/36-johnson.webp"
   },
   {
     "number": 37,
@@ -293,7 +293,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1969,
     "endYear": 1974,
-    "image": "images/richard-nixon.jpg"
+    "image": "images/37-nixon.webp"
   },
   {
     "number": 38,
@@ -301,7 +301,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1974,
     "endYear": 1977,
-    "image": "images/gerald-ford.jpg"
+    "image": "images/38-ford.webp"
   },
   {
     "number": 39,
@@ -309,7 +309,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1977,
     "endYear": 1981,
-    "image": "images/jimmy-carter.jpg"
+    "image": "images/39-carter.webp"
   },
   {
     "number": 40,
@@ -317,7 +317,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1981,
     "endYear": 1989,
-    "image": "images/ronald-reagan.jpg"
+    "image": "images/40-reagan.webp"
   },
   {
     "number": 41,
@@ -325,7 +325,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 1989,
     "endYear": 1993,
-    "image": "images/george-h-w-bush.jpg"
+    "image": "images/41-bush.webp"
   },
   {
     "number": 42,
@@ -333,7 +333,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 1993,
     "endYear": 2001,
-    "image": "images/bill-clinton.jpg"
+    "image": "images/42-clinton.webp"
   },
   {
     "number": 43,
@@ -341,7 +341,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 2001,
     "endYear": 2009,
-    "image": "images/george-w-bush.jpg"
+    "image": "images/43-bush.webp"
   },
   {
     "number": 44,
@@ -349,7 +349,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 2009,
     "endYear": 2017,
-    "image": "images/barack-obama.jpg"
+    "image": "images/44-obama.webp"
   },
   {
     "number": 45,
@@ -357,7 +357,7 @@ export const presidents = [
     "party": "Republican",
     "startYear": 2017,
     "endYear": 2021,
-    "image": "images/donald-trump.jpg"
+    "image": "images/45-donald-trump.webp"
   },
   {
     "number": 46,
@@ -365,7 +365,7 @@ export const presidents = [
     "party": "Democratic",
     "startYear": 2021,
     "endYear": 2025,
-    "image": "images/joe-biden.jpg"
+    "image": "images/46-joe-biden.webp"
   },
   {
     "number": 47,
@@ -373,6 +373,6 @@ export const presidents = [
     "party": "Republican",
     "startYear": 2025,
     "endYear": null,
-    "image": "images/donald-trump.jpg"
+    "image": "images/47-donald-trump.webp"
   }
 ];
