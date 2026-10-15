@@ -51,8 +51,11 @@ header span{
 }
 /**navigation tag**/
 nav{ 
-    display: none;
-    margin-left: 1rem;
+    display: block;
+    background-color: rgb(119, 197, 223);
+    position: static;
+    max-width: none;
+    width: 100%;
 }
 
 nav ul{
