@@ -31,12 +31,12 @@ body{
 
 /**header tag**/
 header{
-    padding: 10px 0 10px 10px;
+    padding: 10px;
     border-bottom: solid 1px #ddd;
     display: grid;
-    align-items: end;
+    align-items: center;
     column-gap: 8px;
-    grid-template-columns: 24px auto;
+    grid-template-columns: 24px 1fr auto;
 }
 
 header img{
