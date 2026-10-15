@@ -31,7 +31,7 @@ document.querySelector('#btn-science').addEventListener('click', (el) => {
     
     /*this loops through all the movies, runs the filter on it to check if 
     movie.genre = adventure. If it does, it only shows the action movies */
-    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Science Fiction"));
+    const  filteredMovies = movies.filter((movie) => movie.genre.includes("Science-Fiction"));
     showFilteredMovies(filteredMovies)
     updateSubNav(el.target.id)
 });
@@ -95,6 +95,7 @@ function showFilteredMovies(filteredMovies) {
 
         // Create the movie card
         const movieCard = document.createElement("section");
+        movieCard.className = movie.genre
 
         // Add everything to the movie card
         movieCard.appendChild(movieTitle);

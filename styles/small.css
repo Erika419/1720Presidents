@@ -361,7 +361,19 @@ nav.show{
     border: 1px solid var(--color-primary)
 }
 .current{
-    background-color: orange;
+    color: orange;
+}
+
+.romance h2{
+    color: pink;
+}
+
+.action h2{
+    color: aqua;
+}
+
+.Science-Fiction h2{
+    color: red;
 }
 
 

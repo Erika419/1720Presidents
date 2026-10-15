@@ -59,7 +59,7 @@ export const movies = [
 {
   "title": "Star Wars",
   "studio": "Warner Bro's Pictures",
-  "genre": "Science Fiction",
+  "genre": "Science-Fiction",
   "image": "images/star_wars_a_new_hope.webp",
   "release": "1977-04-25"
 },
@@ -67,7 +67,7 @@ export const movies = [
 {
   "title": "The Dark Knight",
   "studio": "Paramount Pictures",
-  "genre": "Science Fiction",
+  "genre": "Science-Fiction",
   "image": "images/the_dark_knight.webp",
   "release": "2008-12-07"
 },
