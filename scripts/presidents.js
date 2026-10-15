@@ -5,8 +5,6 @@ console.log(presidents);
 //reference ID's from the file
 const displayPresidents = document.querySelector("#showPresidents");
 
-//path to movie photos
-const pathStart = "https://resources.dgmuvu.com/presidents/"
 
 //response to btn-all being clicked
 document.querySelector('#btn-all').addEventListener('click', (el) => {
