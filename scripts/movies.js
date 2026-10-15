@@ -95,7 +95,7 @@ function showFilteredMovies(filteredMovies) {
 
         // Create the movie card
         const movieCard = document.createElement("section");
-        movieCard.className = movie.genre
+        movieCard.classList.add(...movie.genre.split(", "));
 
         // Add everything to the movie card
         movieCard.appendChild(movieTitle);
