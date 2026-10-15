@@ -117,7 +117,8 @@ function showFilteredPresidents(filteredPresidents) {
 
         // Create the president image
         const presidentImage = document.createElement("img");
-        presidentImage.src= pathStart + president.image.split("/").pop();;
+        
+        presidentImage.src= president.image;
         presidentImage.alt = president.name;
         presidentImage.loading = "lazy";
         presidentImage.width = 400;
