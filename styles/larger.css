@@ -35,7 +35,7 @@
         border-right: solid 1px rgba(245, 242, 242, 0.2);
     }
 
-    /**image format for the presidents **/
+    /**card format for the presidents **/
     .showPresidents {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }

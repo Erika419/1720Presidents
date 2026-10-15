@@ -117,7 +117,7 @@ function showFilteredPresidents(filteredPresidents) {
 
         // Create the president image
         const presidentImage = document.createElement("img");
-        presidentImage.src= pathStart + president.image;
+        presidentImage.src= pathStart + president.image.split("/").pop();;
         presidentImage.alt = president.name;
         presidentImage.loading = "lazy";
         presidentImage.width = 400;
@@ -125,7 +125,7 @@ function showFilteredPresidents(filteredPresidents) {
 
         // Create the card
         const presidentCard = document.createElement("section");
-        presidentCard.classList.add(...president.party.replaceAll(" ", "-"));
+        presidentCard.classList.add(president.party.replaceAll(" ", "-"));
 
         // Add everything to the president card
         presidentCard.appendChild(presidentName);
