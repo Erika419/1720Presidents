@@ -340,10 +340,11 @@ nav li.active a{
 
 /**card formatting**/
 .showPresidents section{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: block;
+    margin: 1rem;
     gap: 1rem;
     padding: 1rem;
+    box-shadow: 10px 10px 5px;
 }
 .current{
     color: orange;
