@@ -20,7 +20,18 @@ document.querySelector('#btn-unaffiliated').addEventListener('click', (el) => {
     
     /*this loops through all the presidents, runs the filter on it to check if 
     presidents.party = unafiliated. If it does, it only shows the unaffiliated presidents */
-    const  filteredPresidents = presidents.filter((president) => president.party.includes("Unaffiliated"));
+    const  filteredPresidents = presidents.filter((president) => president.party ==="Unaffiliated");
+    showFilteredPresidents(filteredPresidents)
+    updateSubNav(el.target.id)
+    
+});
+
+//response to btn-federalist being clicked
+document.querySelector('#btn-federalist').addEventListener('click', (el) => {
+    
+    /*this loops through all the presidents, runs the filter on it to check if 
+    presidents.party = unafiliated. If it does, it only shows the unaffiliated presidents */
+    const  filteredPresidents = presidents.filter((president) => president.party ==="Federalist");
     showFilteredPresidents(filteredPresidents)
     updateSubNav(el.target.id)
     
@@ -31,7 +42,7 @@ document.querySelector('#btn-democratic-republican').addEventListener('click', (
     
     /*this loops through all the presidents, runs the filter on it to check if 
     presidents.party = democraticrepublican. If it does, it only shows the democratic republican presidents */
-    const  filteredPresidents = presidents.filter((president) => president.party.includes("Democratic-Republican"));
+    const  filteredPresidents = presidents.filter((president) => president.party==="Democratic-Republican");
     showFilteredPresidents(filteredPresidents)
     updateSubNav(el.target.id)
     
@@ -42,7 +53,7 @@ document.querySelector('#btn-democratic').addEventListener('click', (el) => {
     
     /*this loops through all the presidents, runs the filter on it to check if 
     presidents.party = democratic. If it does, it only shows the democratic presidents */
-    const  filteredPresidents = presidents.filter((president) => president.party.includes("Democratic"));
+    const  filteredPresidents = presidents.filter((president) => president.party==="Democratic");
     showFilteredPresidents(filteredPresidents)
     updateSubNav(el.target.id)
     
@@ -53,7 +64,7 @@ document.querySelector('#btn-whig').addEventListener('click', (el) => {
     
     /*this loops through all the presidents, runs the filter on it to check if 
     presidents.party = whig. If it does, it only shows the whig presidents */
-    const  filteredPresidents = presidents.filter((president) => president.party.includes("Whig"));
+    const  filteredPresidents = presidents.filter((president) => president.party==="Whig");
     showFilteredPresidents(filteredPresidents)
     updateSubNav(el.target.id)
     
@@ -64,7 +75,7 @@ document.querySelector('#btn-republican').addEventListener('click', (el) => {
     
     /*this loops through all the presidents, runs the filter on it to check if 
     presidents.party = republican. If it does, it only shows the republican presidents */
-    const  filteredPresidents = presidents.filter((president) => president.party.includes("Republican"));
+    const  filteredPresidents = presidents.filter((president) => president.party==="Republican");
     showFilteredPresidents(filteredPresidents)
     updateSubNav(el.target.id)
     
@@ -107,7 +118,6 @@ function showFilteredPresidents(filteredPresidents) {
         // Create the president image
         const presidentImage = document.createElement("img");
         presidentImage.src= pathStart + president.image;
-        presidentImage.src = president.image;
         presidentImage.alt = president.name;
         presidentImage.loading = "lazy";
         presidentImage.width = 400;
