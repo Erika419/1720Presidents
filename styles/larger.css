@@ -10,43 +10,30 @@
     }
 
        /**Navigation Stuff tag**/
-nav {
-    
-    display: block;
-    background-color: rgb(119, 197, 223);
-    position: static;
-    max-width: none;
-    width: 100%;
-}
 
-nav ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(119, 197, 223);
-}
+    nav{
+        display: block;
+        background-color: rgb(119, 197, 223);
+    }
 
-nav li {
-    display: block;
-    width: auto;
-}
+    nav ul{
+        display: flex;
+        margin: 10px;
+        background-color: rgb(119, 197, 223);
+    }
+    nav a{
+        border-left: solid 1px rgba(245, 242, 242, 0.2);
+        padding: .4rem 20px;
+        background-color: rgb(119, 197, 223);
+    }
 
-nav a {
-    display: block;
-    flex: initial;
-    text-align: center;
-    border-left: solid 1px rgba(245, 242, 242, 0.2);
-    padding: .4rem 20px;
-    background-color: rgb(119, 197, 223);
-}
-
-nav a:hover {
+    nav a:hover{
     background-color: rgb(180, 58, 180);
-}
+    }
 
-nav li:last-child a {
-    border-right: solid 1px rgba(245, 242, 242, 0.2);
-}
+    nav li:last-child a{
+        border-right: solid 1px rgba(245, 242, 242, 0.2);
+    }
 
       /**Schedule Layout tag**/
     .schedule{
