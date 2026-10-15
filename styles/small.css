@@ -339,7 +339,7 @@ nav li.active a{
 
 
 /**card formatting**/
-.showPresidents section{
+.showPresidents{
     display: flex;
     margin: 1rem;
     gap: 1rem;
@@ -347,10 +347,10 @@ nav li.active a{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-}
+};
 
-.section:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.showPresidents section{
+    border: 1px solid var(--color-primary)
 }
 
 .current{
