@@ -341,12 +341,10 @@ nav li.active a{
 /**card formatting**/
 .showPresidents{
     display: grid;
+    grid-template-columns: 1fr;
     margin: 1rem;
     gap: 1rem;
     padding: 1rem;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
 };
 
 .showPresidents section{
@@ -357,6 +355,13 @@ nav li.active a{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+}
+
+.showPresidents img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .current{
