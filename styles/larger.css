@@ -26,13 +26,13 @@ nav ul {
 }
 
 nav li {
-    display: flex;
-    width: 100%;
+    display: block;
+    width: auto;
 }
 
 nav a {
-    flex: 1;
     display: block;
+    flex: initial;
     text-align: center;
     border-left: solid 1px rgba(245, 242, 242, 0.2);
     padding: .4rem 20px;
