@@ -84,7 +84,7 @@ nav.show{
     display: block;
 }
 
-nav li.active a{
+nav li.active {
     background-color: var(--color-mygrey-40);
 }
 

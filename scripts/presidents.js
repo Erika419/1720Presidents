@@ -120,7 +120,7 @@ function showFilteredPresidents(filteredPresidents) {
         presidentImage.alt = president.name;
         presidentImage.loading = "lazy";
         presidentImage.width = 500;
-        presidentImage.height = 400;
+        presidentImage.height = 700;
 
         // Create the card
         const presidentCard = document.createElement("section");
