@@ -346,16 +346,24 @@ nav li.active a{
     color: orange;
 }
 
-.Romance h2{
+.Unnafiliated h2{
     color: pink;
 }
 
-.Adventure h2{
-    color: aqua;
+.Democratic h2{
+    color: blue;
 }
 
-.Science-Fiction h2{
+.Republican h2{
     color: red;
+}
+
+.Democratic-Repbulcian h2{
+    color: purple;
+}
+
+.Whig{
+    color: green;
 }
 
 
