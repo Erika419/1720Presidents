@@ -45,6 +45,16 @@
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     }
 
+    /**party nav bar formatting **/
+    .partyNav {
+    flex-direction: row;
+}
+
+    .partyNav button {
+    width: auto;
+    flex: 1;
+}
+
       /**Schedule Layout tag**/
     .schedule{
         font-size: 1rem;

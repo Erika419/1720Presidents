@@ -375,8 +375,18 @@ nav li a.active {
 /**placement of the wayfinding buttons**/
 .partyNav{
     display: flex;
+    flex-direction: column;
     list-style-type: none;
+    padding: 0;
+    margin: 1rem;
 }
+
+.partyNav button {
+    display: block;
+    width: 100%;
+    padding: 0.85rem 10px;
+}
+
 
 /**styling of the buttons**/
 button{
