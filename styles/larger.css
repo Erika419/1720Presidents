@@ -53,6 +53,8 @@
     .partyNav button {
     width: auto;
     flex: 1;
+    border-left: solid 1px rgba(245, 242, 242, 0.2);
+
 }
 
       /**Schedule Layout tag**/
