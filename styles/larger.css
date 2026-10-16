@@ -22,7 +22,7 @@
         background-color: rgb(119, 197, 223);
     }
 
-    nav li.active {
+    nav li a.active {
     background-color: var(--color-mygrey-40);
     }
 

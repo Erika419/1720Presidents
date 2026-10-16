@@ -84,7 +84,7 @@ nav.show{
     display: block;
 }
 
-nav li.active {
+nav li a.active {
     background-color: var(--color-mygrey-40);
 }
 
@@ -361,8 +361,9 @@ nav li.active {
 .showPresidents img {
     display: block;
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 300px;
+    object-fit: contain;
+    object-position: center top;
 }
 
 /**styling of the active button**/
