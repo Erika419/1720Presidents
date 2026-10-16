@@ -153,7 +153,6 @@ nav li.active {
         display: block;
         width:100%;
         height:100%;
-        object-fit: cover;
     }
 
     /**Hero Image tag**/
@@ -352,12 +351,11 @@ nav li.active {
 /**controls styling of each card **/
 .showPresidents section{
     border: 1px solid var(--color-primary);
-    margin: 1rem;
-    gap: 1rem;
+    border-radius: 10px;
+    margin: 0;
     padding: 1rem;
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
+    min-width: 0;
 }
 
 .showPresidents img {

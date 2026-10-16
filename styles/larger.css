@@ -21,6 +21,11 @@
         margin: 10px;
         background-color: rgb(119, 197, 223);
     }
+
+    nav li.active {
+    background-color: var(--color-mygrey-40);
+    }
+
     nav a{
         border-left: solid 1px rgba(245, 242, 242, 0.2);
         padding: .4rem 20px;

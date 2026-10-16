@@ -82,12 +82,12 @@ document.querySelector('#btn-republican').addEventListener('click', (el) => {
 
 //WAYFINDING on Buttons
 function updateSubNav(buttonID) {
-    //remove active class from all buttons
+    //remove current class from all buttons
     const allButtons= document.querySelectorAll('.partyNav button')
     console.log(allButtons)
     allButtons.forEach((btn) => (btn.className=""));
 
-    //add the active class to the current button
+    //add the current class to the current button
     document.querySelector(`#${buttonID}`).className= "current"
 }
 
@@ -119,8 +119,8 @@ function showFilteredPresidents(filteredPresidents) {
         presidentImage.src= president.image;
         presidentImage.alt = president.name;
         presidentImage.loading = "lazy";
-        presidentImage.width = 500;
-        presidentImage.height = 700;
+        presidentImage.width = 200;
+        presidentImage.height = 400;
 
         // Create the card
         const presidentCard = document.createElement("section");
